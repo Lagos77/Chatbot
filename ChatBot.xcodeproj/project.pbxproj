@@ -14,6 +14,7 @@
 		212AC2E2277F94C700FCA4DC /* ChatBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212AC2E1277F94C700FCA4DC /* ChatBotTests.swift */; };
 		212AC2EC277F94C700FCA4DC /* ChatBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212AC2EB277F94C700FCA4DC /* ChatBotUITests.swift */; };
 		212AC2EE277F94C700FCA4DC /* ChatBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212AC2ED277F94C700FCA4DC /* ChatBotUITestsLaunchTests.swift */; };
+		212AC2FB277F9A5600FCA4DC /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212AC2FA277F9A5600FCA4DC /* BotResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		212AC2E7277F94C700FCA4DC /* ChatBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212AC2EB277F94C700FCA4DC /* ChatBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotUITests.swift; sourceTree = "<group>"; };
 		212AC2ED277F94C700FCA4DC /* ChatBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		212AC2FA277F9A5600FCA4DC /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				212AC2D0277F94C500FCA4DC /* ChatBotApp.swift */,
 				212AC2D2277F94C500FCA4DC /* ContentView.swift */,
+				212AC2FA277F9A5600FCA4DC /* BotResponse.swift */,
 				212AC2D4277F94C700FCA4DC /* Assets.xcassets */,
 				212AC2D6277F94C700FCA4DC /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				212AC2D3277F94C500FCA4DC /* ContentView.swift in Sources */,
 				212AC2D1277F94C500FCA4DC /* ChatBotApp.swift in Sources */,
+				212AC2FB277F9A5600FCA4DC /* BotResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
