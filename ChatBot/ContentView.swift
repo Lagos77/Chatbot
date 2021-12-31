@@ -27,6 +27,24 @@ struct ContentView: View {
                 
             }
             
+            HStack{
+                TextField("Type something", text: $messageText)
+                    .padding()
+                    .background(Color.gray.opacity(0.1))
+                    .cornerRadius(10)
+                    .onSubmit {
+                        
+                    }
+                Button {
+                    
+                } label: {
+                    Image(systemName: "paperplane.fill")
+                }
+                .font(.system(size: 26))
+                .padding(.horizontal, 10)
+            }
+            .padding()
+            
         }
     }
 }
