@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var messageText = ""
+    @State var messages : [String] = ["Welcome to Chat Bot"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            HStack{
+                Text("iBot")
+                    .font(.largeTitle)
+                    .bold()
+                
+                Image(systemName: "bubble.left.fill")
+                    .font(.system(size: 26))
+                    .foregroundColor(Color.blue)
+            }
+            
+            ScrollView {
+                
+            }
+            
+        }
     }
 }
 
