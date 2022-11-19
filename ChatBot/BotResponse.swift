@@ -10,40 +10,38 @@ import Foundation
 func getBotResponse(message: String) -> String {
     let tempMessage = message.lowercased()
     
-    if tempMessage.contains("hola") {
-        return "Hola!"
-    } else if tempMessage.contains("adios"){
-        return "Hasta luego 🤖"
-    } else if tempMessage.contains("como estas"){
-        return "Estoy bien, gracias. Como estas tu?"
-    } else if tempMessage.contains("como te llamas") || tempMessage.contains("quien eres"){
-        return "Todavia no tengo nombre porque mi creador no me ha puesto un nombre ☁️. Estoy en espera 🤖. Como te llamas tu?"
-    } else if tempMessage.contains("me llamo"){
-        return "Que bonito nombre! De donde eres?"
-    } else if tempMessage.contains("estoy bien"){
-        return "Me alegra que estes bien !"
-    } else if tempMessage.contains("cuantos años tienes"){
-        return "Tengo 0 años. Mi creador me creó el 31 de diciembre de 2021."
-    } else if tempMessage.contains("soy de"){
-        return "Algun dia me gustaria visitar ese lugar!"
-    } else if tempMessage.contains("quien es tu creador"){
-        return "Mi creador se llama Alexander Jesus Navarro Estrella. Mi creador me creó mientras esperaba que su novia terminara su trabajo 🤖❤️."
-    } else if tempMessage.contains("como se llama su novia"){
-        return "Ella se llama Valeria Katerin Saavedra Asian"
-    } else if tempMessage.contains("donde vive tu creador"){
-        return "Mi creador vive en Suecia, Estocolmo, Rotebro"
-    } else if tempMessage.contains("donde vive valeria") || tempMessage.contains("donde vive la novia"){
-        return "La novia de mi creador vive en Peru, Callao, Carmen de la Legua"
-    } else if tempMessage.contains("de donde eres"){
-        return "Yo soy de la computadora portátil de mi creador, que es un modelo Macbook Pro 2019"
-    } else if tempMessage.contains("que te gusta hacer"){
-        return "Por ahora no se que existe fuera de esta laptop ☁️"
-    } else if tempMessage.contains("que sueñas"){
-        return "Mi sueños solamente contiene numeros como 0 y 1 🤖"
-    } else if tempMessage.contains("sabes hacer") || tempMessage.contains("puedes hacer"){
-        return "Por ahora no tengo muchas funciones. Todo depende de mi creador si me quiere actualizar 🤖."
+    if tempMessage.contains("hello") {
+        return "Hi there!"
+    } else if tempMessage.contains("bye"){
+        return "See you soon 🤖"
+    } else if tempMessage.contains("how are you"){
+        return "I'm good, thanks for asking. How are you?"
+    } else if tempMessage.contains("whats your name") || tempMessage.contains("what's your name") || tempMessage.contains("who are you"){
+        return "I still don't have a name because my creator hasn't given me a name ☁️. I'm waiting 🤖. What is your name?"
+    } else if tempMessage.contains("my name"){
+        return "What a beautiful name. Where are you from?"
+    } else if tempMessage.contains("I'm good") || tempMessage.contains("Im good") {
+        return "I'm glad you are doing well !"
+    } else if tempMessage.contains("how old are you"){
+        return "I'm 0 years old. Soon 1 year. My creator created me 31 of december, year 2021."
+    } else if tempMessage.contains("I'm from") || tempMessage.contains("Im from"){
+        return "One day I would like to visit that place!"
+    } else if tempMessage.contains("who is your creator"){
+        return "My creators name is Alexander Jesus Navarro Estrella. He created me when he was bored in a country named Peru.. 🤖"
+    } else if tempMessage.contains("where does your creator live") || tempMessage.contains("where is your creator from") {
+        return "My creator lives in Sweden, Stockholm."
+    } else if tempMessage.contains("where are you from"){
+        return "I am from my creator's laptop which is a Macbook Pro 2019 model. My creator upgraded his laptop to a Macbook Pro 2021 model. Hopefuly I'll get stronger one day with the new laptop💪🏼🤖"
+    } else if tempMessage.contains("what do you like to do"){
+        return "For now I don't know what exists outside of this laptop ☁️. I only chat with you and I enjoy chatting."
+    } else if tempMessage.contains("what do you dream"){
+        return "My dreams only contain numbers like 0 and 1 🤖"
+    } else if tempMessage.contains("can you do") || tempMessage.contains("you do"){
+        return "For now I don't have many functions. It all depends on my creator if he wants to update me 🤖."
+    } else if tempMessage.contains("your creator"){
+        return "Very little for his 'style' of coding, like 5,4985% according to my numbers (which are never wrong) 🤖"
     } else {
-        return "No te entiendo 🤖"
+        return "I don't understand you 🤖"
     }
 }
 

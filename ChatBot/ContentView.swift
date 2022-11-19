@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var messageText = ""
-    @State var messages : [String] = ["Bienvenido a Chat Bot 🤖"]
+    @State var messages : [String] = ["Welcome to Chat Bot 🤖"]
     
     var body: some View {
         VStack {
