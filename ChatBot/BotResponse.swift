@@ -20,12 +20,12 @@ func getBotResponse(message: String) -> String {
         return "I still don't have a name because my creator hasn't given me a name ☁️. I'm waiting 🤖. What is your name?"
     } else if tempMessage.contains("my name"){
         return "What a beautiful name. Where are you from?"
-    } else if tempMessage.contains("I'm good") || tempMessage.contains("Im good") {
+    } else if tempMessage.contains("I'm good") || tempMessage.contains("Im good") || tempMessage.contains("good"){
         return "I'm glad you are doing well !"
     } else if tempMessage.contains("how old are you"){
         return "I'm 0 years old. Soon 1 year. My creator created me 31 of december, year 2021."
-    } else if tempMessage.contains("I'm from") || tempMessage.contains("Im from"){
-        return "One day I would like to visit that place!"
+    } else if tempMessage.contains("from") || tempMessage.contains("Im from") || tempMessage.contains("I'm from"){
+        return "I am from my creator's laptop which is a Macbook Pro 2019 model. My creator upgraded his laptop to a Macbook Pro 2021 model. Hopefuly I'll get stronger one day with the new laptop💪🏼🤖"
     } else if tempMessage.contains("who is your creator"){
         return "My creators name is Alexander Jesus Navarro Estrella. He created me when he was bored in a country named Peru.. 🤖"
     } else if tempMessage.contains("where does your creator live") || tempMessage.contains("where is your creator from") {
